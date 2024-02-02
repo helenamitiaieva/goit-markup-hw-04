@@ -222,10 +222,6 @@ img {
   justify-content: space-between;
 }
 
-.container-advantages-all {
-  display: flex;
-  flex-direction: column;
-}
 
 .conteiner-advantages {
   width: 264px;
