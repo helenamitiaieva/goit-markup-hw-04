@@ -172,9 +172,10 @@ img {
     ),
     url(/images/hero.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
+    background-size: cover;
   background-position: center;
 }
+
 
 .main-title {
   color: #fff;
@@ -243,12 +244,6 @@ img {
   justify-content: space-between;
 }
 
-.conteiner-advantages {
-  margin-bottom: 8px;
-  display: flex;
-    align-items: center;
-    justify-content: center;
-}
 
 .conteiner-advantages-icon {
  
@@ -258,6 +253,10 @@ img {
   border: 1px solid #8e8f99;
   background: #f4f4fd;
   position: relative;
+  margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .advantages-icon {
@@ -344,6 +343,10 @@ img {
   margin-top: 8px;
 }
 
+.icon-item {
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+ 
 .icon-link {
   border-radius: 50%;
   width: 40px;
