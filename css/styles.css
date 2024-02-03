@@ -112,7 +112,7 @@ img {
   position: relative;
 }
 
-.menu-link-studio::after {
+.menu-link-active::after {
   content: "";
   width: 100%;
   position: absolute;
