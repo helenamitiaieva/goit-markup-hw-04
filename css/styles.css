@@ -165,6 +165,7 @@ img {
   background: #2e2f42;
   padding-top: 188px;
   padding-bottom: 188px;
+  max-width: 1440px;
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
@@ -172,6 +173,7 @@ img {
     url(/images/hero.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 .main-title {
@@ -204,6 +206,7 @@ img {
   margin: 0 auto;
   display: block;
   min-width: 169px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button:hover {
@@ -240,8 +243,15 @@ img {
   justify-content: space-between;
 }
 
-
 .conteiner-advantages {
+  margin-bottom: 8px;
+  display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.conteiner-advantages-icon {
+ 
   width: 264px;
   height: 112px;
   border-radius: 4px;
@@ -257,9 +267,6 @@ img {
   top: 24px;
 }
 
-.item-advantages {
-  margin-top: 8px;
-}
 
 .advantages {
   color: #2e2f42;
@@ -347,6 +354,15 @@ img {
   align-items: center;
 }
 
+.icon-link:hover  {
+ background-color: #404BBF;
+}
+
+.icon-link:focus {
+  background-color: #404BBF;
+}
+
+
 .icon-icon {
   fill: #f4f4fd;
 }
@@ -396,7 +412,7 @@ width: 360px;
 }
 
 .image-portfolio:hover .overlay {
-  translateY(0);
+ background-color: background-color: #404bbf;
 }
 
 .title-portfolio {
