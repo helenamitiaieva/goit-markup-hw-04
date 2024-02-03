@@ -457,9 +457,13 @@ width: 360px;
 
 .footer-container {
 display: flex;
-
+align-items: baseline;
 }
 
+.footer-container-logo{
+  margin-right: 120px;
+
+}
 
 .footer-logo {
   color: #f4f4fd;
